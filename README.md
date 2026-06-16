@@ -5,7 +5,7 @@ El proyecto está organizado bajo una arquitectura de paquetes:
 - `src/model/`: Contiene la clase `Tour` (molde de datos).
 - `src/data/`: Contiene la clase `GestorDatos` (lógica de lectura de archivos).
 - `src/ui/`: Contiene la clase principal `Main` (interfaz de consola).
-- `src/resources/`: Directorio que almacena el archivo externo `tours.txt`.
+- `resources/`: Directorio que almacena el archivo externo `tours.txt`.
 
 Instrucciones para ejecutar
 1. Clona este repositorio.
