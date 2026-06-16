@@ -1,0 +1,5 @@
+Isla Huar;Calbuco;1200
+Tour Gastronomico;Llanquihue;45000
+Ruta del Lago;Frutillar;35000
+Ascenso Volcan;Osorno;80000
+Paseo Lacustre;Puerto Varas;25000
