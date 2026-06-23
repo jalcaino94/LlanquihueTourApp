@@ -3,7 +3,7 @@ Llanquihue Tour App
 Este proyecto es una aplicación de escritorio desarrollada en Java para la gestión de tours y guías turísticos de la agencia "Llanquihue Tour". El sistema permite cargar información desde archivos externos, validar datos críticos (como RUT y correos) y gestionar la asignación de guías a diferentes destinos.
 
 Características Principales
-Este proyecto fue desarrollado bajo los principios de la Programación Orientada a Objetos (POO):
+Este proyecto fue desarrollado bajo los principios de la Programación Orientada a Objetos:
 
 Herencia: Implementada en la jerarquía de clases para compartir atributos base.
 
