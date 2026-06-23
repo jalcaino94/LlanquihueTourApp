@@ -2,23 +2,22 @@ package model;
 
 public class Tour {
 
-    // 1. Atributos encapsulados
     private String nombre;
     private String ubicacion;
     private int precio;
+    private Guia guiaAsignado;
 
-    // 2. Constructor vacío
     public Tour() {
     }
 
-    // 3. Constructor con parámetros
-    public Tour(String nombre, String ubicacion, int precio) {
+    // Constructor
+    public Tour(String nombre, String ubicacion, int precio, Guia guiaAsignado) {
         this.nombre = nombre;
         this.ubicacion = ubicacion;
         this.precio = precio;
+        this.guiaAsignado = guiaAsignado;
     }
 
-    // 4. Métodos Getters y Setters
     public String getNombre() {
         return nombre;
     }
@@ -43,9 +42,23 @@ public class Tour {
         this.precio = precio;
     }
 
-    // 5. Sobrescritura del método toString()
+    public Guia getGuiaAsignado() {
+        return guiaAsignado;
+    }
+
+    public void setGuiaAsignado(Guia guiaAsignado) {
+        this.guiaAsignado = guiaAsignado;
+    }
+
     @Override
     public String toString() {
-        return "Tour -> Nombre: " + nombre + " | Ubicación: " + ubicacion + " | Precio: $" + precio;
+        String infoTour = "Tour -> Nombre: " + nombre + " | Ubicación: " + ubicacion + " | Precio: $" + precio;
+        // Si el tour tiene un guía asignado, mostramos su nombre
+        if (guiaAsignado != null) {
+            infoTour += "\n   L Guía a cargo: " + guiaAsignado.getNombre() + " (Especialidad: " + guiaAsignado.getIdiomaEspecialidad() + ")";
+        } else {
+            infoTour += "\n   L Guía a cargo: Sin guía asignado aún.";
+        }
+        return infoTour;
     }
 }
