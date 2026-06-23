@@ -1,3 +1,0 @@
-18621969-4;Juan Perez;juan@tour.cl;Ingles
-21545878-8;Maria Gomez;maria@tour.cl;Portugues
-25646587-5;Carlos Diaz;carlos@tour.cl;Ingles
