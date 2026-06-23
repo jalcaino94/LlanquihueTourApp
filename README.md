@@ -19,11 +19,19 @@ El código está organizado en paquetes para asegurar la modularidad:
 
 Plaintext
 src/
+
 ├── app/            # Clase Main (Punto de entrada)
+
 ├── model/          # Clases base (Persona, Guia, Tour)
+
 ├── service/        # Lógica de negocio y lectura de archivos (GestorDatos)
+
 ├── util/           # Utilidades y validaciones (Validaciones)
+
 resources/          # Archivos de datos (.txt)
+
+
+
 Requisitos previos
 Para ejecutar este proyecto, necesitas:
 
