@@ -1,3 +1,7 @@
+<img width="488" height="157" alt="image" src="https://github.com/user-attachments/assets/e233c29b-b0dd-4f42-8243-e2413e79d359" />
+
+
+
 Llanquihue Tour App
 
 Este proyecto es una aplicación de escritorio desarrollada en Java para la gestión de tours y guías turísticos de la agencia "Llanquihue Tour". El sistema permite cargar información desde archivos externos, validar datos críticos (como RUT y correos) y gestionar la asignación de guías a diferentes destinos.
